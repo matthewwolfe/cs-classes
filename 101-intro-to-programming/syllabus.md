@@ -42,6 +42,7 @@ This class is an introduction to software development. You will learn the basics
 - Alternation with if-else
 - Numbers, strings, and booleans
 - Variables and best practices
+- Comments
 
 #### Class 2
 
