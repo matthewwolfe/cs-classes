@@ -1,0 +1,24 @@
+{
+  "name": "cs-classes",
+  "version": "0.0.1",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "gen-docs": "node ./gen-docs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewwolfe/cs-classes.git"
+  },
+  "author": "Matthew Wolfe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewwolfe/cs-classes/issues"
+  },
+  "homepage": "https://github.com/matthewwolfe/cs-classes#readme",
+  "devDependencies": {
+    "marked": "^0.6.2",
+    "pretty": "^2.0.0"
+  }
+}
