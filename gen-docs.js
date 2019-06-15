@@ -31,7 +31,7 @@ function generateHtmlFromMarkdown(markdown) {
             font-family: sans-serif;
             max-width: 800px;
             margin: auto;
-            padding: 2em;
+            padding: 1em;
           }
         </style>
       </head>
