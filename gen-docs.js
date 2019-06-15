@@ -4,19 +4,32 @@ const path = require('path');
 const pretty = require('pretty');
 const rimraf = require('rimraf');
 
+function updateLinks(html) {
+  const linkMappings = {
+    'readme.md': '',
+    'syllabus.md': 'syllabus.html'
+  };
+
+  Object.keys(linkMappings).forEach((key) => {
+    html = html.replace(new RegExp(key, 'g'), linkMappings[key]);
+  });
+
+  return html;
+}
+
 function generateSavePath(path) {
   return `./docs/${path}`;
 }
 
 function generateHtmlFromMarkdown(markdown) {
-  return pretty(`
+  return pretty(updateLinks(`
     <html>
       <head></head>
       <body>
         ${marked(markdown)}
       </body>
     </html>
-  `, {ocd: true});
+  `), {ocd: true});
 }
 
 function getClassDirectories(source) {
