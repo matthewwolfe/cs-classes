@@ -5,7 +5,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "gen-docs": "node ./gen-docs.js"
+    "docs": "node ./gen-docs.js"
   },
   "repository": {
     "type": "git",

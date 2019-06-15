@@ -25,6 +25,7 @@ function generateHtmlFromMarkdown(markdown) {
   return pretty(updateLinks(`
     <html>
       <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
         <style>
           html {
             font-family: sans-serif;
