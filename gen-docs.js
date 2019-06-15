@@ -2,6 +2,7 @@ const fs = require('fs');
 const marked = require('marked');
 const path = require('path');
 const pretty = require('pretty');
+const rimraf = require('rimraf');
 
 function generateSavePath(path) {
   return `./docs/${path}`;
@@ -38,6 +39,16 @@ function saveMarkdownAsHtml(path, savePath) {
   fs.writeFileSync(generateSavePath(savePath), generateHtmlFromMarkdown(markdown), 'utf-8');
 }
 
-const classDirectories = getClassDirectories('./');
+// Reset docs folder
+rimraf.sync('./docs');
+fs.mkdirSync('docs');
 
+// Home page
 saveMarkdownAsHtml('./readme.md', 'index.html');
+
+// Create all class directories with index and syllabus files
+getClassDirectories('./').forEach((directory) => {
+  fs.mkdirSync(generateSavePath(directory));
+  saveMarkdownAsHtml(`${directory}/readme.md`, `${directory}/index.html`);
+  saveMarkdownAsHtml(`${directory}/syllabus.md`, `${directory}/syllabus.html`);
+});
