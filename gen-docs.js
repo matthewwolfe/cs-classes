@@ -24,7 +24,16 @@ function generateSavePath(path) {
 function generateHtmlFromMarkdown(markdown) {
   return pretty(updateLinks(`
     <html>
-      <head></head>
+      <head>
+        <style>
+          html {
+            font-family: sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 2em;
+          }
+        </style>
+      </head>
       <body>
         ${marked(markdown)}
       </body>
