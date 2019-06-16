@@ -61,9 +61,6 @@ function createDocs(source) {
 
   createDirectories(source);
   createFiles(source);
-
-  // saveMarkdownAsHtml(`${directory}/readme.md`, `${directory}/index.html`);
-  // saveMarkdownAsHtml(`${directory}/syllabus.md`, `${directory}/syllabus.html`);
 }
 
 function getClassDirectories(source) {
