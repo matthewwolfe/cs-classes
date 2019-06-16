@@ -2,4 +2,4 @@
 
 #### Class List
 
-- [101: Intro to Programming](101-intro-to-programming/readme.md)
+- [101: Intro to Programming](101-intro-to-programming/index.md)

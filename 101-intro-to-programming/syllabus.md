@@ -19,6 +19,7 @@ This class is an introduction to software development. You will learn the basics
 #### Class 1
 
 - Simple HTML and CSS, and understanding the DOM structure
+- Introduction to attributes
 - Different HTML tags and what they are used for
 - Creating and viewing a simple web page
 - Small introduction to git
@@ -29,6 +30,7 @@ This class is an introduction to software development. You will learn the basics
 
 - Introduction to Javascript
 - Inline script tag vs. separate javascript files
+- More on attributes
 - Sequence of code execution
 - Creating and executing events
 - Different inputs (input, Text Area, select, and more)
