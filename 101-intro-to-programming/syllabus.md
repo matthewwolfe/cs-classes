@@ -34,6 +34,7 @@ This class is an introduction to software development. You will learn the basics
 - Sequence of code execution
 - Creating and executing events
 - Different inputs (input, Text Area, select, and more)
+- Numbers, strings, and booleans
 
 ## Week 2
 
@@ -42,7 +43,6 @@ This class is an introduction to software development. You will learn the basics
 - Variable declaration (let vs. const)
 - Variable assignment and re-assignment
 - Alternation with if-else
-- Numbers, strings, and booleans
 - Variables and best practices
 - Comments
 
