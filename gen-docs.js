@@ -30,6 +30,10 @@ function generateHtmlFromMarkdown(markdown) {
             margin: auto;
             padding: 1em;
           }
+
+          li {
+            line-height: 1.75em;
+          }
         </style>
       </head>
       <body>
