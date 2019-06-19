@@ -12,6 +12,8 @@
 - [Git Book](https://git-scm.com/book/en/v2)
 - [How to write a good commit message](https://chris.beams.io/posts/git-commit/)
 - [List of HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [Javascript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 #### Homework
 
